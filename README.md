@@ -6,7 +6,10 @@
   - 文字
   - 使用kube UI
   - [jQuery]
+
+
 # 細項
+
   - 背景動畫使用youtubeAPI
   - js/index.js中可以更動影片片段或是多部影片片段(已經用jason方式載入)
 
