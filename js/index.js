@@ -65,8 +65,10 @@ $('#mute').on('click', function(){
   $('#tv').toggleClass('mute');
   if($('#tv').hasClass('mute')){
     tv.mute();
+    $('#mute').text( "Click here to unmute" );
   } else {
     tv.unMute();
+    $('#mute').text( "Click here to mute" );
   }
 });
 $('#hr').show('slow');

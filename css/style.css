@@ -138,14 +138,28 @@ hr {
      position: absolute;
   top:50%;
   left: 0;
-   line-height: 26px;
     z-index: 4;
     background: #fff;
     border-radius: 10px;
      color: #000;
-  font-family: 'Roboto Slab', serif;
-  font-size: 24px;
-    text-align: center
+     vertical-align: middle;
+  
+}
+.newinfobtn{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    top:0;
+    bottom:0;
+   
+    left:0;
+    margin:0 0 0 35%;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+   
+
+
 }
 
 .lay3{
